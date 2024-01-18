@@ -6,8 +6,7 @@ function submitForm() {
   
     // Send data to the backend (e.g., using AJAX)
     // Use the server URL instead of 'file:///C:/submit'
-    public_ip=$1
-    fetch('https://$public_ip:3000/submit', {
+    fetch('https://' + window.location.hostname + ':3000/submit', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
