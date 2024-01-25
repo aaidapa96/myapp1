@@ -6,7 +6,7 @@ function submitForm() {
   
     // Send data to the backend (e.g., using AJAX)
     // Use the server URL instead of 'file:///C:/submit'
-    fetch('http://20.219.254.37/submit', {
+    fetch('http://20.198.117.127/submit', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
